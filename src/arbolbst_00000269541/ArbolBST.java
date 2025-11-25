@@ -128,7 +128,6 @@ public class ArbolBST {
      * @return El valor minimo.
      */
     private int encontrarMinimoValor(Nodo nodo) {
-        // Si no hay hijo izquierdo, este es el nodo más a la izquierda, por lo tanto el mínimo
         if (nodo.getIzquierdo() == null) {
             return nodo.getValor();
         } 
