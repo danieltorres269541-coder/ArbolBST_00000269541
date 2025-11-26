@@ -52,7 +52,7 @@ public class Main {
         arbol.eliminar(20);
         arbol.inorden();
 
-        System.out.println("\nEliminando 30 (con hijos)...");// Nota: 30 ahora tiene 40 como hijo derecho
+        System.out.println("\nEliminando 30 (con hijos)...");
         arbol.eliminar(30); 
         arbol.inorden(); 
 
